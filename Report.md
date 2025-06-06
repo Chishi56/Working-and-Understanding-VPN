@@ -93,7 +93,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Wait until the status changes to **“Connected”** (indicated by a green banner).
 
 > **Screenshot 03:**  
-> ![Figure 3: ProtonVPN Connected to USA Server](./screenshot/02-VPN-connect.png)  
+> ![Figure 3: ProtonVPN Connected to USA Server](./screenshot/VPN-Connect.png)  
 > *Caption:* ProtonVPN status changed to **Connected**. Virtual IP is displayed.
 
 ---
@@ -143,7 +143,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - No HTTP or DNS appears in plaintext—only TLS record layers.
 
 > **Screenshot 06:**  
-> ![Figure 6: TLS 1.3 Handshake Over TCP 443](./screenshots/WireShark-Capture.png)  
+> ![Figure 6: TLS 1.3 Handshake Over TCP 443](./screenshot/WireShark-Capture.png)  
 > *Caption:* TLS 1.3 Client Hello and Server Hello on TCP 443 between local host (10.2.0.2) and ProtonVPN gateway (172.64.150.5). This proves encryption in transit.
 
 > **Explanation:**  
@@ -160,7 +160,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Note down the **Download**, **Upload**, and **Ping** metrics.
 
 > **Screenshot 07:**  
-> ![Figure 7: Speed Test Before VPN](./screenshots/Network-Speed-of-my-local-network.png)  
+> ![Figure 7: Speed Test Before VPN](./screenshot/Network-Speed-of-my-local-network.png)  
 > *Caption:* Baseline speed test without VPN:  
 > - Download: 29.12 Mbps  
 > - Upload: 7.08 Mbps  
@@ -172,7 +172,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Record the new **Download**, **Upload**, and **Ping** metrics.
 
 > **Screenshot 08:**  
-> ![Figure 8: Speed Test With VPN](./screenshots/Network-Speed-of-VPN.png)  
+> ![Figure 8: Speed Test With VPN](./screenshot/Network-Speed-of-VPN.png)  
 > *Caption:* Speed test with VPN connected:  
 > - Download: 31.4 Mbps  
 > - Upload: 3.17 Mbps  
@@ -257,41 +257,25 @@ A Virtual Private Network (VPN) creates a secure “tunnel” between a user’s
 Below are all screenshots used in the report. Each image is labeled in the order it appears above; they can also be found in the `screenshots/` folder of this repository.
 
 
-1. **`02-vpn-connected.png`**  
+1. **`VPN-Connect.png`**  
    *ProtonVPN dashboard after installation (status: Not connected).*
 
-3. **`03-ip-before-vpn.png`**  
-   *Public IP before VPN connection: 203.0.113.45 (India).*
+2. **`MyIP-before-VPN-Connect.png`**  
+   *Public IP before VPN connection: 106.215.140.167 (India).*
 
-4. **`04-ip-after-vpn.png`**  
-   *Public IP after connecting to ProtonVPN (Japan server): 185.XX.XX.XX (Japan).*
+3. **`MyIP-after-VPN-Connect.png`**  
+   *Public IP after connecting to ProtonVPN (USA server): 181.214.131.105 (USA) .*
 
-5. **`05-vpn-wireshark.png`**  
+4. **`WireShark-Capture.png`**  
    *Wireshark capture showing TLS 1.3 Client Hello and Server Hello on TCP 443 (10.2.0.2 ↔ 172.64.150.5).*
 
-6. **`06-speed-before-vpn.png`**  
-   *Speed test results without VPN: Download 50 Mbps / Upload 10 Mbps / Ping 20 ms.*
+5. **`Network-Speed-of-my-local-network.png`**  
+   *Speed test results without VPN: Download 29.12 Mbps / Upload 7.08 Mbps / Ping 136 ms.*
 
-7. **`07-speed-after-vpn.png`**  
-   *Speed test results with VPN: Download 30 Mbps / Upload 7 Mbps / Ping 80 ms.*
+6. **`07-speed-after-vpn.png`**  
+   *Speed test results with VPN: Download 31.14 Mbps / Upload 3.17 Mbps / Ping 339 ms.*
 
-8. **`08-vpn-disconnected.png`**  
-   *ProtonVPN status: Disconnected.*
-
-9. **`09-ip-after-disconnect.png`**  
-   *Public IP after disconnect: 203.0.113.45 (India) restored.*
-
-> **Optional Raw Data:**  
-> - **Speedtest URLs:**  
->   - Before VPN: `https://www.speedtest.net/result/1234567890`  
->   - After VPN: `https://www.speedtest.net/result/0987654321`  
-> - **Wireshark Capture File:** `vpn_capture.pcapng` (if you want to include the raw capture).
 
 ---
 
 ### End of Report
-
-Feel free to adjust captions, file names, or formatting to match your actual screenshots and folder structure. Once you have populated the `screenshots/` directory and verified that every image loads correctly, you can generate a PDF from `report.md` (if a PDF is required) or simply leave it as Markdown for easy online viewing.
-
-Good luck with your submission!
-
