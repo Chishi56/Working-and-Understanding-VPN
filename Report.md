@@ -81,7 +81,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Log in using the email/password you created earlier.  
 
 > **Screenshot 02:**  
-> ![Figure 2: ProtonVPN Client Dashboard (Not Connected)](./screenshots/VPN%20Not%20Connect.png)  
+> ![Figure 2: ProtonVPN Client Dashboard (Not Connected)](./screenshot/VPN-Not-Connect.png)  
 > *Caption:* ProtonVPN dashboard is open. Status: **Not connected**.
 
 ---
