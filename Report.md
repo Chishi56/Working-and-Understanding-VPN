@@ -103,7 +103,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
 1. **Record Baseline IP (Before VPN)**  
    - Disconnect ProtonVPN (if connected).  
    - Open Microsoft Edge and navigate to https://www.whatismyipaddress.com.  
-   - Note down or screenshot the **IPv4 Address** and approximate location (e.g., “203.0.113.45 – India”).  
+   - Note down or screenshot the **IPv4 Address** and approximate location (e.g., “106.215.140.167 – India”).  
 
 > **Screenshot 04:**  
 > ![Figure 4: IP Address Before VPN](./screenshot/MyIP-before-VPN-Connect.png)  
@@ -112,7 +112,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
 2. **Check IP After Connecting**  
    - Re-open Microsoft Edge with ProtonVPN **Connected** to **USA**.  
    - Refresh https://www.whatismyipaddress.com.  
-   - Observe that the IP address now corresponds to USA (e.g., “185.XX.XX.XX – USA”).
+   - Observe that the IP address now corresponds to USA (e.g., “181.214.131.105 – USA”).
 
 > **Screenshot 05:**  
 > ![Figure 5: IP Address After VPN](./screenshot/MyIP-after-VPN-Connect.png)  
