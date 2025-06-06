@@ -93,7 +93,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Wait until the status changes to **“Connected”** (indicated by a green banner).
 
 > **Screenshot 03:**  
-> ![Figure 3: ProtonVPN Connected to USA Server](./screenshots/02-VPN-connect.png)  
+> ![Figure 3: ProtonVPN Connected to USA Server](./screenshot/02-VPN-connect.png)  
 > *Caption:* ProtonVPN status changed to **Connected**. Virtual IP is displayed.
 
 ---
@@ -106,7 +106,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Note down or screenshot the **IPv4 Address** and approximate location (e.g., “203.0.113.45 – India”).  
 
 > **Screenshot 04:**  
-> ![Figure 4: IP Address Before VPN](./screenshots/MyIP-before-VPN-Connect.png)  
+> ![Figure 4: IP Address Before VPN](./screenshot/MyIP-before-VPN-Connect.png)  
 > *Caption:* Public IP before connecting to VPN: 106.215.140.167 (India).
 
 2. **Check IP After Connecting**  
@@ -115,7 +115,7 @@ The deliverables include this step-by-step report (with screenshots), a performa
    - Observe that the IP address now corresponds to USA (e.g., “185.XX.XX.XX – USA”).
 
 > **Screenshot 05:**  
-> ![Figure 5: IP Address After VPN](./screenshots/MyIP-after-VPN-Connect.png)  
+> ![Figure 5: IP Address After VPN](./screenshot/MyIP-after-VPN-Connect.png)  
 > *Caption:* Public IP after connecting to VPN: 181.214.131.105 (USA) .  
 
 > **Note:**  
